@@ -14,20 +14,20 @@ AND
 ANDI
 B
 B.cond: This is a CB instruction in which the Rt field is not a register, but a code that indicates the condition extension. These have the values (base 16):
-0: EQ
-1: NE
-2: HS
-3: LO
-4: MI
-5: PL
-6: VS
-7: VC
-8: HI
-9: LS
-a: GE
-b: LT
-c: GT
-d: LE
+0: EQ.
+1: NE.
+2: HS.
+3: LO.
+4: MI.
+5: PL.
+6: VS.
+7: VC.
+8: HI.
+9: LS.
+a: GE.
+b: LT.
+c: GT.
+d: LE.
 BL
 BR: The branch target is encoded in the Rn field.
 CBNZ
